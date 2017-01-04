@@ -41,7 +41,11 @@ git reset --soft HEAD^ [ the ^ symbol meand move to one commit before HEAD ]
 
 git reset --hard HEAD^ undo last commit and all changes
 
+to add new remote : git remote add name location
 git remote add origin http://xyz.git
+
+to remove remotes
+git remote rm "name"
 
 pushing to remote "repo name" , "local branch to push"
 git push -u origin master 
