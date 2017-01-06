@@ -50,3 +50,65 @@ git remote rm "name"
 pushing to remote "repo name" , "local branch to push"
 git push -u origin master 
 
+clone a repo
+
+git clone git_add
+
+view remotes of current git repo
+git remote -v
+
+create new branch
+git branch branch_name
+
+checkout to another branch
+git checkout branch_name
+
+to merge branches
+first move to the master branch
+git merge branch_name
+
+delete a branch 
+git branch -d branch_name
+
+to creach a brach and checkout in 1 step
+git checkout -b branch_name
+
+to fetch or sync our local repository with the remote one
+git merge origin/master
+
+
+Merge conflict
+
+git status
+edit the contents
+git commit -a
+
+Remote show
+git remote show origin 
+
+Removing a remote branch
+
+git push origin :branch_name
+
+List all remote branch
+git branch -r
+
+Fetch all remote branches
+git fetch
+
+First do git fetch and then git branch -r
+
+To clean up deleted remote branches
+state status means deleted 
+git remote show origin
+git remote prune origin
+
+Tags
+git tag -a 2.2 -m "Tag"
+git push --tags
+git checkout 2.2
+
+Git Rebase 
+1. Move all changes to master which are not in origin master or temp area
+2. Run all origin/master commit
+3. Run all commits in  the temp area one at a time
