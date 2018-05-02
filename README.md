@@ -48,7 +48,16 @@ git push -u <remote_name> <branch> ( push to remote any branch. Useful in when t
 git clone https://github.com/dibsy/git-cheatsheet.git ( Clone a remote repository. Add origin remote pointing to clone URL)
 git clone https://github.com/dibsy/git-cheatsheet.git my-repo ( Will be stored in my-repo directory )
 ```
+### Branching
+```
+git branch new_branch ( Create a new branch )
+git checkout new_branch ( Switching to the branch_name )
+git checkout master ( Move back to master branch )
+git merge new_branch ( Merge the contents of new_branch in master )
+git branch -d new_branch ( Delete the branch )
+git checkout -b admin ( Fast forward technique. Creates and checksout branch)
 
+```
 ### git config --global user.name "Dibsyhex"
 
 ### initialize an empty repo
