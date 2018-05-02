@@ -70,6 +70,7 @@ git checkout -b admin ( Fast forward technique. Creates and checksout branch)
 ```
 ### Merging Changes
 ```
+
 Incase the remote commit is ahead of local copy but on different files
 git push ( Will throw error)
 git pull ( Do git pull first)
