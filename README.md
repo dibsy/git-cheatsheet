@@ -45,8 +45,8 @@ git push -u <remote_name> <branch> ( push to remote any branch. Useful in when t
 ```
 ### Cloning
 ```
-git clone hh ( Clone a remote repository. Add origin remote pointing to clone URL)
-git clone as my-repo ( Will be stored in my-repo directory )
+git clone https://github.com/dibsy/git-cheatsheet.git ( Clone a remote repository. Add origin remote pointing to clone URL)
+git clone https://github.com/dibsy/git-cheatsheet.git my-repo ( Will be stored in my-repo directory )
 ```
 
 ### git config --global user.name "Dibsyhex"
