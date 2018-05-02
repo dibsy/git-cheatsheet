@@ -43,6 +43,11 @@ git remote add <name> <address> ( Add remotes)
 git remote rm <name> ( To remove remotes )
 git push -u <remote_name> <branch> ( push to remote any branch. Useful in when there are mutliple remotes)
 ```
+### Cloning
+```
+git clone hh ( Clone a remote repository. Add origin remote pointing to clone URL)
+git clone as my-repo ( Will be stored in my-repo directory )
+```
 
 ### git config --global user.name "Dibsyhex"
 
