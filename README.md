@@ -35,7 +35,7 @@ git reset --hard HEAD^^ (Undo last 2 commit and all the changes)
 ```
 ### Remotes
 ```
-git add remote origin https://github.com/dibsy/git-cheatsheet.git ( Adding a remote )
+git remote add origin https://github.com/dibsy/git-cheatsheet.git ( Adding a remote )
 git remote -v ( List all available remote repository )
 git push -u origin master ( Push to origin our master branch )
 git pull ( pull changes from remote )
