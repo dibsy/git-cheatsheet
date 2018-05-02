@@ -1,3 +1,14 @@
+### Different ways to add files for git tracking
+```
+git add . ( Adds everything )
+git add a.txt b.txt ( add files selectively )
+git add --all ( Add all files )
+git add \*.txt ( Add all *.txt files in current Diretory) 
+git add docs/*.txt ( Add all the *.txt files in the docs dirctory
+git add "*.txt" Add all *.txt files in the whole project
+
+```
+
 ### Get Help Details
 git help config
 
