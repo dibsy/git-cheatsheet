@@ -33,6 +33,16 @@ git commit --amend -m "Some message" ( Add to last commit. Overwrite last commit
 git reset --hard HEAD^ ( Undo last commit and all the changes)
 git reset --hard HEAD^^ (Undo last 2 commit and all the changes)
 ```
+### Remotes
+```
+git add remote origin https://github.com/dibsy/git-cheatsheet.git ( Adding a remote )
+git remote -v ( List all available remote repository )
+git push -u origin master ( Push to origin our master branch )
+git pull ( pull changes from remote )
+git remote add <name> <address> ( Add remotes) 
+git remote rm <name> ( To remove remotes )
+git push -u <remote_name> <branch> ( push to remote any branch. Useful in when there are mutliple remotes)
+```
 
 ### git config --global user.name "Dibsyhex"
 
