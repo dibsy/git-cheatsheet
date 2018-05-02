@@ -1,3 +1,13 @@
+### Git Basics
+```
+git help config
+git config --global user.name 'Dibyendu'
+git init ( Initialize an empty repository )
+git add *.txt
+git status ( See your status )
+git commit -m "Commit Messages" ( Make a commit to files which are in staging area)
+git log ( to see the commit history)
+```
 ### Different ways to add files for git tracking
 ```
 git add . ( Adds everything )
@@ -9,8 +19,6 @@ git add "*.txt" Add all *.txt files in the whole project
 
 ```
 
-### Get Help Details
-git help config
 
 ### git config --global user.name "Dibsyhex"
 
