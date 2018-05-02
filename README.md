@@ -8,7 +8,7 @@ git status ( See your status )
 git commit -m "Commit Messages" ( Make a commit to files which are in staging area)
 git log ( to see the commit history)
 ```
-### Different ways to add files for git tracking
+### Adding files for staging
 ```
 git add . ( Adds everything )
 git add a.txt b.txt ( add files selectively )
@@ -18,7 +18,21 @@ git add docs/*.txt ( Add all the *.txt files in the docs dirctory
 git add "*.txt" Add all *.txt files in the whole project
 
 ```
-
+### Staging
+```
+git diff ( Show unstaged difference since last commit)
+git add *.txt
+git diff ( No difference after files are staged )
+git diff --staged ( View staged difference)
+git reset HEAD Somefile ( To remove from a staged area ; HEAD refers to last commit on the timeline)
+git checkout -- FileName ( reomove all the changes made to the file since last commit)
+git commit -a -m "Change" ( Skip staging and commit direclty. Add changes from all traced files only. Untraced files are not added)
+git reset --soft HEAD^ -  (Undoing commit and reset into staging [^ Move one commit before HEAD] )
+git add todo.txt
+git commit --amend -m "Some message" ( Add to last commit. Overwrite last commit. Whatever has been staged is added to last commit)
+git reset --hard HEAD^ ( Undo last commit and all the changes)
+git reset --hard HEAD^^ (Undo last 2 commit and all the changes)
+```
 
 ### git config --global user.name "Dibsyhex"
 
