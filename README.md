@@ -99,9 +99,30 @@ git checkout v0.1 ( checkout the commit )
 git tag -a v0.2.1 -m "New changes in v0.2.1"
 git push --tags ( Push the tags to remote )
 
+``` 
+### Removing
+```
+
+git rm file.txt
+git commit -m "Removing file.txt"
+
+```
+### Untracking 
+```
+
+Untracking File
+git rm --cached somefileToUntrack.txt
+
+```
+### Aliasing
+```
+
+git config alias.myaliasshorcutcommand commit
+
 ```
 ### References
 ```
+
 Git , Google, CodeSchool,
 
 ```
