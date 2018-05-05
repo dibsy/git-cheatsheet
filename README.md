@@ -84,6 +84,15 @@ git add file.txt
 git commit -a
 
 ```
+### Tagging
+```
+
+git tag ( List all the tags )
+git checkout v0.1 ( checkout the commit )
+git tag -a v0.2.1 -m "New changes in v0.2.1"
+git push --tags ( Push the tags to remote )
+
+```
 ### References
 ```
 Git , Google, CodeSchool,
