@@ -120,6 +120,11 @@ git rm --cached somefileToUntrack.txt
 git config alias.myaliasshorcutcommand commit
 
 ```
+### Blame
+```
+git blame somefile.txt ( see who made the changes and other details of the changes)
+
+```
 ### References
 ```
 
