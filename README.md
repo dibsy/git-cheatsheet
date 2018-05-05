@@ -91,6 +91,15 @@ git add file.txt
 git commit -a
 
 ```
+### Diff
+```
+
+git diff ( see the changes made in files)
+git diff HEAD^ ( diff with the parent of the latest commit)
+git diff HEAD^^ ( diff with the grandparent of the latest commit)
+git diff master branchname ( diff two branches )
+
+```
 ### Tagging
 ```
 
@@ -118,6 +127,7 @@ git rm --cached somefileToUntrack.txt
 ```
 
 git config alias.myaliasshorcutcommand commit
+
 
 ```
 ### Blame
