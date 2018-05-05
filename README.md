@@ -67,6 +67,13 @@ git merge new_branch ( Merge the contents of new_branch in master )
 git branch -d new_branch ( Delete the branch )
 git checkout -b admin ( Fast forward technique. Creates and checksout branch)
 
+Scennario  Based - Creating local branch and sending it to remote
+git checkout -b mybranch ( Create and checkout local branch)
+git push origin mybranch ( Push local branch to remote)
+git add cart.rb			 ( Add the new files)
+git commit -a -m "Some message" ( Commit )
+git push ( pushed to mybranch)  ( Push )
+
 ```
 ### Merging Changes
 ```
