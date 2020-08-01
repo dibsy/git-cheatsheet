@@ -55,6 +55,8 @@ git reset HEAD Somefile ( To remove from a staged area ; HEAD refers to last com
 git checkout -- FileName ( reomove all the changes made to the file since last commit)
 git commit -a -m "Change" ( Skip staging and commit direclty. Add changes from all traced files only. Untraced files are not added)
 git reset --soft HEAD^ -  (Undoing commit and reset into staging [^ Move one commit before HEAD] )
+git reset --mixed ( moves all changes to working directory)
+git reset --hard ( Trash all changes)
 git add todo.txt
 git commit --amend -m "Some message" ( Add to last commit. Overwrite last commit. Whatever has been staged is added to last commit)
 git reset --hard HEAD^ ( Undo last commit and all the changes)
