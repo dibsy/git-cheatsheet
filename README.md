@@ -117,7 +117,23 @@ git commit -a
 ### Diff
 ```
 
+diff --git a/README.md b/README.md   <-- Compared files
+index e25d569..6ed43b9 100644        <-- File Metadata
+--- a/README.md                      <-- Last Changes Marked
++++ b/README.md                      <-- New Changes Marked
+@@ -2,9 +2,9 @@                      <-- Chunk Headers , Changes that are modified at line 2, and 9 lines were modified
+
+ There stages of a file :               
+ - Untracked ( Not added for tracking)
+-- Committed ( no new change in file after a commit), 
+-- Modified( change made in file that is tracked and already committed), 
+-- Staged( after commit)
++- Committed ( no new change in file after a commit, unmodified changes), 
++- Modified( new change made in file that is tracked and already committed), 
++- Staged( Changes that are going to be added to next commit snapshot)
+
 git diff ( see the changes made in files)
+git diff --staged ( see the staged changes)
 git diff HEAD^ ( diff with the parent of the latest commit)
 git diff HEAD^^ ( diff with the grandparent of the latest commit)
 git diff master branchname ( diff two branches )
