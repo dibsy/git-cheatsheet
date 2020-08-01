@@ -1,8 +1,17 @@
+### Basic Notes
+```
+There stages of a file : 
+- Untracked ( Not added for tracking)
+- Committed ( no new change in file after a commit), 
+- Modified( change made in file that is tracked and already committed), 
+- Staged( after commit)
+```
 ### Git Basics
 ```
 
 git help config
 git config --global user.name 'Dibyendu'
+git config --list ( See all the current config details)
 git init ( Initialize an empty repository )
 git add *.txt
 git status ( See your status )
