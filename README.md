@@ -2,9 +2,9 @@
 ```
 There stages of a file : 
 - Untracked ( Not added for tracking)
-- Committed ( no new change in file after a commit), 
-- Modified( change made in file that is tracked and already committed), 
-- Staged( after commit)
+- Committed ( no new change in file after a commit, unmodified changes), 
+- Modified( new change made in file that is tracked and already committed), 
+- Staged( Changes that are going to be added to next commit snapshot)
 ```
 ### Git Basics
 ```
@@ -19,6 +19,20 @@ git commit -m "Commit Messages" ( Make a commit to files which are in staging ar
 git log ( to see the commit history)
 
 ```
+
+### Git Status
+```
+
+Git short status : 
+-   M = Modified , 
+-   A = New file added to Staging area, 
+-   ?? = New untracked file
+
+git status --short
+
+
+```
+
 ### Adding files for staging
 ```
 
