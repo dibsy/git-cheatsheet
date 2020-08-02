@@ -89,7 +89,9 @@ git branch new_branch ( Create a new branch )
 git checkout new_branch ( Switching to the branch_name )
 git checkout master ( Move back to master branch )
 git merge new_branch ( Merge the contents of new_branch in master )
-git branch -d new_branch ( Delete the branch )
+git branch -d branch_name ( Delete the branch , error incase of unmerged commits)
+git branch -d branch_name ( Force delete, no errors in case of unmerged commits)
+git branch -m old_branch_name new_branch_name ( Rename a branch)
 git checkout -b admin ( Fast forward technique. Creates and checksout branch)
 
 Scennario  Based - Creating local branch and sending it to remote
@@ -139,7 +141,7 @@ git diff --staged ( see the staged changes)
 git diff HEAD^ ( diff with the parent of the latest commit)
 git diff HEAD^^ ( diff with the grandparent of the latest commit)
 git diff master branchname ( diff two branches )
-
+git diff branch1 branch2 ( Diff two branch )
 ```
 ### Tagging
 ```
@@ -176,9 +178,15 @@ git config alias.myaliasshorcutcommand commit
 git blame somefile.txt ( see who made the changes and other details of the changes)
 
 ```
+### Rebase
+```
+Important notes : 
+-   Do not use rebase on a public branch
+
+```
 ### References
 ```
 
-Git , Google, CodeSchool,
+Git , Google, CodeSchool, Pluralsight
 
 ```
